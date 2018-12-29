@@ -1,0 +1,27 @@
+start_time        : 1546060936
+last_update       : 1546061062
+fuzzer_pid        : 9916
+cycles_done       : 4
+execs_done        : 12640
+execs_per_sec     : 83.10
+paths_total       : 2
+paths_favored     : 0
+paths_found       : 0
+paths_imported    : 0
+max_depth         : 1
+cur_path          : 1
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.00%
+unique_crashes    : 9
+unique_hangs      : 470
+last_path         : 0
+last_crash        : 1546061048
+last_hang         : 1546061062
+execs_since_crash : 957
+exec_timeout      : 20
+afl_banner        : server-nonstop-stateless
+afl_version       : 2.39b
+command_line      : afl-fuzz -i afl-input/ -o out_stateless/ -m 500 -n -t 20 -D 5 -N tcp://127.0.0.1:7891 ./server-nonstop-stateless

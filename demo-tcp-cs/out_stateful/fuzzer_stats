@@ -1,0 +1,27 @@
+start_time        : 1546060305
+last_update       : 1546060818
+fuzzer_pid        : 3901
+cycles_done       : 55
+execs_done        : 37793
+execs_per_sec     : 2.15
+paths_total       : 2
+paths_favored     : 0
+paths_found       : 0
+paths_imported    : 0
+max_depth         : 1
+cur_path          : 0
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.00%
+unique_crashes    : 1
+unique_hangs      : 13
+last_path         : 0
+last_crash        : 1546060386
+last_hang         : 1546060806
+execs_since_crash : 31643
+exec_timeout      : 20
+afl_banner        : server-nonstop-stateful
+afl_version       : 2.39b
+command_line      : afl-fuzz -i afl-input/ -o out_stateful -G grammar-example/demo.json -s -m 500 -t 20 -D 10 -n -N tcp://127.0.0.1:7891 ./server-nonstop-stateful
